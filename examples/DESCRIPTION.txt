@@ -1,0 +1,11 @@
+Package: hyperdraw
+Version: 0.1
+Depends: R (>= 2.9.0), methods, grid, graph, Rgraphviz
+SystemRequirements: graphviz
+Title: Visualizing Hypergaphs
+Author: Paul Murrell
+Maintainer: Paul Murrell <p.murrell@auckland.ac.nz>
+Description: Functions for visualizing hypergraphs.
+License: GPL (>= 2)
+Packaged: 2009-12-16 22:34:05 UTC; paul
+Built: R 2.10.1; ; 2009-12-16 22:47:01 UTC; windows
