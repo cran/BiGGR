@@ -28,6 +28,7 @@
 	\link[hyperdraw:graphBPH]{graphBPH}
 }
 \examples{
+\dontrun{
     data("Glycolysis")
     uptake<-"glcD"
     minimal<-"TRUE"
@@ -35,6 +36,7 @@
     layout<-"neato"
     gnel<-model2hyperdraw(Glycolysis,"glcD",TRUE,levels,layout)
     gnel
+	}
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.

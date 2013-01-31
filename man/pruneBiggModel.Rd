@@ -5,7 +5,7 @@
 
 \title{pruneBiggModel}
 
-\description{prunes the model file which is already created from the createBiggModel function}
+\description{prunes the model file which is created using the createBiggModel function}
 
 \usage{pruneBiggModel(modelFile,metabolites,reactions,maximize,equation_var,equation_value,constraint,externals)}
 
@@ -40,7 +40,7 @@ R package version 1.3}
 	equation_value<-1
 	constraints<-"[0,1000]"
 	externals<-c("glcD","pyr")
-	Model.LIM<-createModel(metabolites_file,reactions_file,maximize,
+	Model.LIM<-createBiggModel(metabolites_file,reactions_file,maximize,
 		     equation_var,equation_value,constraints,externals)
 	prunedModel.LIM<-pruneBiggModel(Model.LIM,metabolites_file,reactions_file,
 			     maximize,equation_var,equation_value,constraints,externals)

@@ -1,7 +1,7 @@
-#This function takes the modelFile and reshaphe it taking into account the non connection species of the reactions
+#This function takes the modelFile and reshape it taking into account the non connection species of the reactions
 
 pruneBiggModel<-function(modelFile,metabolites,reactions,maximize,equation_var,equation_value,constraint,externals){
-    warning("Make sure the model file is first created using the createModel function")
+    warning("Make sure the model file is first created using the createBiggModel function")
     liminput<-Read(modelFile)
     liminput$compnames<-liminput$compnames
     prune_ext<-tolower(possibleExternals(liminput))

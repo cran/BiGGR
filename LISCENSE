@@ -1,6 +1,6 @@
 Citation
 ========
-Anand K. Gavai(2011) BiGGR: An open source initiative for constraint-based
+Anand K. Gavai(2013) BiGGR: An open source initiative for constraint-based
 modeling in R using the BiGG database, Version 3. Software package for R.
 Wageningen University, Wageningen, The Netherlands.
 
@@ -28,7 +28,7 @@ S. cerevisiae iND750:Duarte, N.C., Herrgard, M.J., and Palsson, B.Ø., " Reconstr
 S. aureus iSB619:Becker, S.A. and Palsson, B.Ø., "Genome-scale reconstruction of the metabolic network in Staphylococcus aureus N315: an initial draft to the two-dimensional annotation", BMC Microbiology, 5(1):8 (2005).
 
 
-All other files: Copyright (C) 2011 by Anand K. Gavai<anand.gavai@bioinformatics.nl>
+All other files: Copyright (C) 2013 by Anand K. Gavai<anand.gavai@bioinformatics.nl>
 
 
 License

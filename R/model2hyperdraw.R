@@ -1,8 +1,8 @@
 
 model2hyperdraw<-function(modelFile,uptake,minimal,levels,layout){ #uptake is a vector of external inputs provided to the system
 #warning("The uptake vector must consist of all compounds as specified in the EQUATION section of the Model file")
-    #lim <-Setup(modelFile)
-    lim<-modelFile
+    lim <-Setup(modelFile)
+    #lim<-modelFile
     LP<-Linp(lim)
     rates<-getRates(modelFile)
    
